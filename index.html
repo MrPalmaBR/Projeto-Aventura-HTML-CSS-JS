@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>Desbravando os Mistérios dos Números</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="Homem pensativo">
+            <p class="texto-creditos">Créditos da imagem: <a
+                    href="https://pt.vecteezy.com/arte-vetorial/2612674-jovem-pensativo-pensando-ou-resolvendo-problemas"
+                    target="_blank">Vecteezy</a></p>
+
+            <p class="texto-historia">Está na hora de embarcar em uma aventura matemática!</p>
+            <p class="texto-historia">Você está pronto para desvendar os mistérios escondidos nos números?</p>
+
+            <button class="btn-proximo" data-proximo="1">Estou pronto! Começar a aventura...</button>
+            <button class="btn-proximo" data-proximo="2">Preciso de mais treinamento...</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.png" alt="Sala de aula">
+            <p class="texto-creditos">Créditos da imagem: <a
+                    href="https://depositphotos.com/br/vectors/sala-de-aula-matem%C3%A1tica.html?qview=183151818"
+                    target="_blank">Depositphotos</a></p>
+
+            <p class="texto-historia">Você vai para a sala de aula de matemática.</p>
+            <p class="texto-historia">O professor anuncia uma tarefa especial que somente
+                os alunos mais motivados conseguirão completar.</p>
+
+            <button class="btn-proximo" data-proximo="3">Aceitar o desafio</button>
+            <button class="btn-proximo" data-proximo="4">Desistir</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.jpg" alt="Biblioteca">
+            <p class="texto-creditos">Créditos da imagem: <a
+                    href="https://gauchazh.clicrbs.com.br/cultura-e-lazer/livros/noticia/2023/09/uma-biblioteca-de-livros-sobre-livros-clmqb6cmb001i0167fe7npa6d.html"
+                    target="_blank">Gauchazh Clicrbs</a></p>
+
+            <p class="texto-historia">Você vai para a biblioteca da escola, e escolhe diversos livros de matemática,
+                entre eles livros de álgebra, de geometria, de probabilidade e funções</p>
+
+            <button class="btn-proximo" data-proximo="5">Você abre o livro FME - Vol 6.</button>
+            <button class="btn-proximo" data-proximo="6">Você pesquisa outros títulos de livros</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3.jpg" alt="Sala de informática">
+            <p class="texto-creditos">Créditos da imagem: <a
+                    href="https://br.freepik.com/fotos-gratis/ninguem-na-estacao-de-trabalho-do-call-center-vazio-com-computadores-e-instrumentos-de-audio-nao-ha-pessoas-nos-balcoes-de-atendimento-ao-cliente-com-tecnologia-de-telecomunicacoes-oferecendo-assistencia-de-linha-de-apoio_27782339.htm#query=sala%20de%20informatica&position=0&from_view=keyword&track=ais_hybrid&uuid=101d31ac-5f03-4fbf-88ac-8770d5419e08"
+                    target="_blank">DC Studio em Freepik</a></p>
+
+            <p class="texto-historia">Você é levado para a sala de informática, e senta em frente a um computador</p>
+
+            <button class="btn-proximo" data-proximo="7">Abrir o desafio</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.jpg" alt="Rua deserta">
+            <p class="texto-creditos">Créditos da imagem: <a
+                    href="https://www.pexels.com/pt-br/foto/casas-feitas-de-pedra-ao-longo-de-uma-rua-estreita-de-paralelepipedos-3241866/"
+                    target="_blank">Adrien Olichon em Pexels</a></p>
+
+            <p class="texto-historia">Você percebe que o problema apresentado pelo professor é demasiado difícil e você
+                não se sente capaz para continuar a aventura...</p>
+            <p class="texto-historia">Então você abandona o desafio, e volta para a casa</p>
+            <p class="texto-historia">Que pena!</p>
+
+            <button class="btn-proximo" data-proximo="0">Reiniciar a aventura</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo5.jpg" alt="Livro Fundamentos da Matemática Elmenentar - Volume 6">
+            <p class="texto-creditos">Créditos da imagem: <a
+                    href="https://www.clasf.com.br/fundamentos-de-matematica-elementar-em-rio-de-janeiro-13466171/"
+                    target="_blank">Clasf.com</a></p>
+
+            <p class="texto-historia">Durante a leitura e os estudos das equações apresentadas no Volume 6 do Livro
+                Fundamentos da Matemática Elementar, você já se sente preparado para continuar o desafio</p>
+
+            <button class="btn-proximo" data-proximo="7">Ir para a sala de informática</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6.jpg" alt="Livros de Matemática">
+            <p class="texto-creditos">Créditos da imagem: <a
+                    href="https://www.clasf.com.br/livros-de-matem%C3%A1tica-em-manaus-14715677/"
+                    target="_blank">Clasf</a></p>
+
+
+            <p class="texto-historia">Você pega um livro didático com diversos assuntos da 1ª Série do Ensino Médio e
+                começa a resolver exercícios</p>
+
+            <button class="btn-proximo" data-proximo="8">Você encontra uma dica, com a página do tema equações</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7.png" alt="Equação">
+            <p class="texto-creditos">Créditos da imagem: Arquivo pessoal</p>
+
+            <p class="texto-historia">Em seu e-mail, você recebe o seguinte desafio matemático:</p>
+            <p class="texto-historia">Resolva a seguinte equação quadrática:</p>
+            <p class="texto-historia">x² - 6x + 9 = 0</p>
+
+            <button class="btn-proximo" data-proximo="9">Responder usando agrupamento</button>
+            <button class="btn-proximo" data-proximo="10">Pedir Ajuda</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo8.jfif" alt="Exercícios de função quadrática">
+            <p class="texto-creditos">Créditos da imagem: <a href="https://br.pinterest.com/pin/1049831363143117222/"
+                    target="_blank">https://br.pinterest.com/pin/1049831363143117222/</a></p>
+
+            <p class="texto-historia">Após resolver diversos exercícios do livro, você já se sente preparado para
+                encarar o desafio</p>
+
+            <button class="btn-proximo" data-proximo="7">Ir para a sala de informática</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9.png" alt="Resolução por faturação">
+            <p class="texto-creditos">Créditos da imagem: Google</p>
+
+            <p class="texto-historia">Utilizando agrupamento, você chega na seguinte expressão: (x - 3)², e então você
+                diz que a raíz da equação é 3.</p>
+            <p class="texto-historia">Parabéns!</p>
+            <p class="texto-historia">Você conseguiu resolver o desafio matemático com sucesso.</p>
+            <p class="texto-historia">O professor fica impressionado com suas habilidades.</p>
+
+            <button class="btn-proximo" data-proximo="11">Recolher o prêmio na sala 3</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10.jpg" alt="Fórmula quadrática">
+            <p class="texto-creditos">Créditos da imagem: <a
+                    href="https://br.neurochispas.com/wp-content/uploads/2022/08/Resolva-equacoes-com-a-formula-quadratica.webp"
+                    target="_blank">Neurochispas</a></p>
+
+            <p class="texto-historia">Você solicita a ajuda do professor, que prontamente explica os passos para
+                resolver o problema.</p>
+            <p class="texto-historia">Utilizar a fórmula quadrática: x = (-b ± √(b² - 4ac)) / 2a</p>
+            <p class="texto-historia">Onde a = 1, b = -6 e c = 9</p>
+            <p class="texto-historia">Encontrar os valores de x que satisfazem a equação</p>
+
+            <button class="btn-proximo" data-proximo="12">Responder utilizando a fórmula quadrática</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.jpg" alt="Chocolate derretido">
+            <p class="texto-creditos">Créditos da imagem: <a
+                    href="
+                https://br.freepik.com/fotos-premium/letra-x-feita-com-chocolate-derretido-na-vista-superior-de-fundo-branco-ilustracao-realista-de-ia-generativa_59892911.htm"
+                    target="_blank">Freepik</a></p>
+
+            <p class="texto-historia">Você ganha um chocolate no formato em “x”, um presente simbólico mas que
+                representa o suecesso em solucionar aquele problema matemático</p>
+
+            <button class="btn-proximo" data-proximo="13">Fim</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo12.png" alt="Resolução usando a fórmula quadrática">
+            <p class="texto-creditos">Créditos da imagem: Google</p>
+
+            <p class="texto-historia">Você utiliza a fórmula quadrática para desenvolver a solução.</p>
+            <p class="texto-historia">Então você diz que a raíz da equação é 3.</p>
+            <p class="texto-historia">Parabéns!</p>
+            <p class="texto-historia">Você conseguiu resolver o desafio matemático com sucesso.</p>
+            <p class="texto-historia">O professor fica impressionado com suas habilidades.</p>
+
+            <button class="btn-proximo" data-proximo="11">Recolher o prêmio na sala 3</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passo13.png" alt="Fim">
+            <p class="texto-creditos">Créditos da imagem: <a href="https://pt.textstudio.com/logo/275/Fim"
+                    target="_blank">TextStudio</a></p>
+
+            <p class="texto-historia">Obrigado por participar da aventura</p>
+
+            <button class="btn-proximo" data-proximo="0">Reiniciar a aventura</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
